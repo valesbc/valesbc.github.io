@@ -12,7 +12,6 @@
    background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?dpr=2&fit=crop&fm=jpg&h=750&q=50&w=1450);
    background-size: 120%
   }
-
 a {
  color: white;
 }
@@ -29,16 +28,13 @@ h1 {
 h2 {
  color: lightSkyBlue;
 }
-
 #what-i-do{
 	background-color: white;
 	overflow: hidden;
 }
-
 header{
 	padding: 100px;
 }
-
 article{
 	height: 130px;
 	width: 260px;
@@ -49,17 +45,14 @@ article{
 	padding: 10px;
 	margin-bottom: 50px;
 }
-
 .container{
 	width: 900px;
 	margin: 0 auto;
 }
-
 #who-i-am{
 	background-color: lavender;
 	overflow: hidden;
 }
-
  </style>
 </head>
 <body>
@@ -71,9 +64,11 @@ article{
 <br>Feel free to contect me.
 <br>Thank you. 
 
-<nav><a href="#">Home / </a><a href="#">About Me / </a><a href="#">Portfolio / </a><a href="#">Contact</a></nav>
+<nav><a href="#">Home / </a><a href="#who-i-am">About Me / </a><a href="#what-i-do">Portfolio / </a><a href="#">Contact</a></nav>
 </header>     
-<section id="what-i-do">
+<!--what i do full page-->
+<!--Trying to make it to one side vertical-->
+<section id="what-i-do"">	
 <div class="container">
 <h2>What I do</h2>
 <article>
@@ -94,23 +89,44 @@ article{
 </section>
 
 <section id="who-i-am">
+<!--Just a try out for the two section section-->
 <div class="container">
 <h2>Who I Am</h2>
 <img src="https://c1.staticflickr.com/1/656/22643885312_b754f93cf9_o.jpg" width="200" style="border-radius: 40px">
+</div>
+
 <p>I'm a Graphic Design student graduating 
 <br>from Miami International University of Art and Design.
 <br>I love drawing, reading and traveling.
 
+</section> 
 
-</section>             
+<section id="contact-info">
+<h1>Get In Touch</h1>
+<p>I'm always looking for new projects
+<p>Feel free to contact me:
+
+<h1>Send me an e-mail to:</h1>
+<p>valesbc@hotmail.com
+
+
+
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.4133418811634!2d-80.19069394965689!3d25.78993421364579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6a7a2fd7ed3%3A0x6b04c9fb83a8090c!2sMiami+International+University+of+Art+%26+Design!5e0!3m2!1sen!2sus!4v1446398904097" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+
+</section>   
+
 <footer>
-
-<a href="http://www.twitter.com/ValeriaSBC"><i class="fa fa-twitter"></i></a>
-<a href="https://instagram.com/valesbc/"><i class="fa fa-instagram"></i></a>
+<nav><a href="http://www.twitter.com/ValeriaSBC"><i class="fa fa-twitter fa-lg"></i></a>
+<a href="https://instagram.com/valesbc/"><i class="fa fa-instagram fa-lg"></i></a>
 <a href="https://www.linkedin.com/pub/valeria-becerra/107/b0a/398
-"><i class="fa fa-linkedin"></i></a>
-<a href="https://www.behance.net/valesbc"><i class="fa fa-behance"></i>
-</a>
-
+"><i class="fa fa-linkedin fa-lg"></i></a>
+<a href="https://www.behance.net/valesbc"><i class="fa fa-behance fa-lg"></i>
+</a></nav>
+<section id="copyright">
+	<hr>
+<h4> © Copyright Valeria Becerra 2015</h4>
+</section>
 </footer>
 </body>
