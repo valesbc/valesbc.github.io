@@ -24,6 +24,8 @@ a:visited {
 h1 {
  color: white;
  font-family: 'Yeseva One', cursive;
+ font-size: 40px;
+
 }
 h2 {
  color: lightSkyBlue;
@@ -31,55 +33,113 @@ h2 {
 #what-i-do{
 	overflow: hidden;
 }
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
 header{
-	padding: 100px;
+	padding: 0px;
+	margin: 10px;
+	overflow: hidden;
+
 }
 article{
-	height: 130px;
-	width: 260px;
-	float: left;
-	background-color: lavenderBlush;
-	margin: 6px;
-	border-radius: 10px;
-	padding: 10px;
-	margin-bottom: 50px;
+	background-color: rgb(140, 167, 177);
+	padding: 1px;
+	line-height: 50px
+}
+
+article img{
+	position: absolute;
+	left: 25px;
+}
+.top-menu {
+
+    background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?dpr=2&fit=crop&fm=jpg&h=750&q=50&w=1450);
+    background-size: 1600px;
+    background-repeat: repeat;
+}
+
+.top menu img:hover {
+	color: deepSkyBlue;
+}
+nav a {
+	margin-top: 40px;
+	text-decoration: none;
+	font-size: 20px;
+}
+nav a:hover {
+	color: deepSkyBlue;
+}
+
+footer {
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+.what-i-do {
+	background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?dpr=2&fit=crop&fm=jpg&h=750&q=50&w=1450);
+    background-size: 1600px;
 }
 .container{
 	width: 900px;
 	margin: 0 auto;
 }
+
+
+/*.container article {
+	background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?dpr=2&fit=crop&fm=jpg&h=750&q=50&w=1450);
+	border: 1px solid rgb(140, 167, 177);
+	width: 260px;
+	float: left;
+	margin: 6px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 50px;
+}*/
+
+.container img{
+	background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?dpr=2&fit=crop&fm=jpg&h=750&q=50&w=1450);
+	border: 1px solid rgb(140, 167, 177);
+	height: 180px;
+	float: left;
+	margin: 5px;
+	padding: 10px;
+	margin-bottom: 50px;
+}
  </style>
 </head>
 <body>
 <header>
- <img src="http://i.imgur.com/hCy8Uac.png?1" width="700">
-
-
-<nav><a href="http://valesbc.me">Home / </a><a href="http://valesbc.me/about.html">About Me / </a><a href="http://valesbc.me/portfolio.html">Portfolio / </a><a href="http://valesbc.me/contact.html">Contact</a></nav>
+ <article>
+	<div class="top-menu">
+	<nav><a href="http://valesbc.me"><img src="http://i.imgur.com/hCy8Uac.png?1" width="90" alt="Valeria Becerra Logo"></a><a href="http://valesbc.me/about.html">About Me | </a><a href="http://valesbc.me/portfolio.html">Portfolio | </a><a href="http://valesbc.me/contact.html">Contact</a></nav>
+	</div>
+</article>
 </header>     
 <!--what i do full page-->
 <!--Trying to make it to one side vertical-->
-<section id="what-i-do"">	
+<section id="what-i-do">	
+
+<h1>My Work</h1>
+
 <div class="container">
-<h2>What I do</h2>
-<article>
-<i class="fa fa-desktop fa-2x"></i>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57c3ae30025563.560f546df17ee.jpg" alt="architecture website"> 
 
-<h2>Web Design</h2></article> 
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0f5a4430025329.560f4ee506788.jpg" alt="billboard">
 
-<article>
-<i class="fa fa-spinner fa-spin fa-2x"></i>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2d947d29970839.560cb3e972605.jpg" alt="magazine">
 
-<h2>Graphic Design</h2></article>
- 
-<article>
-<i class="fa fa-pencil-square-o fa-2x"></i>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5abf3f29971763.560cc53769c43.jpg" alt="Robin Williams">
 
-<h2>Illustration</h2></article>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7fa92230025145.560f4ae589b5a.jpg" alt="bussiness">
+
+
+
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b0bd2a29971593.560cc300d9030.png" alt="hansel and gretel">
+
 </div>
 </section>
-
-
 
 <footer>
 <nav><a href="http://www.twitter.com/ValeriaSBC"><i class="fa fa-twitter fa-lg"></i></a>
