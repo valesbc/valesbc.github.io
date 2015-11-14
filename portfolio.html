@@ -4,6 +4,11 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
  <link href='https://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+ <script type="text/javascript">
+   function popup(){
+    window.open("http://valesbc.me/pricing.html","popup","height=600,width=600,top=200,left=400"); 
+   }
+ </script>
 <style>
   body {
    color: slateGray;
@@ -26,7 +31,7 @@ h1 {
  color: white;
  font-family: 'Yeseva One', cursive;
  font-size: 40px;
- text-shadow: 0px 1px 0px darkGray;
+
 }
 h2 {
  color: lightSkyBlue;
@@ -71,12 +76,11 @@ nav a {
 	font-size: 20px;
 }
 nav a:hover {
-	color: ivory;
-	text-transform: uppercase;
+	color: deepSkyBlue;
 }
 
 footer {
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-bottom: 10px;
 }
 .what-i-do {
@@ -87,7 +91,19 @@ footer {
 	width: 900px;
 	margin: 0 auto;
 }
-
+input {
+	background: rgb(237, 220, 207);
+    background-image: -webkit-linear-gradient(bottom, #dbc2cc, #f5eae3);
+    background-image: -moz linear-gradient(bottom, #dbc2cc, #f5eae3);
+    background-image: -o-linear-gradient(bottom, #dbc2cc, #f5eae3);
+    background-image: linear-gradient(top, #dbc2cc, #f5eae3);
+ 	border-radius: 5px;
+    font-family: 'Yeseva One', cursive;
+ 	font-size: 25px;
+    color: white;
+ 	padding: 10px;
+ 	text-decoration: none;
+}
 
 /*.container article {
 	background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?dpr=2&fit=crop&fm=jpg&h=750&q=50&w=1450);
@@ -109,26 +125,20 @@ footer {
 	margin: 3px;
 	padding: 3px;
 	margin-bottom: 50px;
-	-webkit-transition: height 2s;
-	/*transtion: height 2s*/
+	vertical-align: center
+	/*transition: height 2s;*/
 }
-
-/*.container img:hover {
-	height: 250px;*/
-}
+/*
+.container img:hover {
+	height: 250px;
+}*/
  </style>
 </head>
 <body>
 <header>
  <article>
 	<div class="top-menu">
-	<nav>
-		<a href="http://valesbc.me"><img src="http://i.imgur.com/7hKVWiO.png?1" width="90" alt="Valeria Becerra Logo">
-		<a href="http://valesbc.me/about.html">About Me | </a>
-		<a href="http://valesbc.me/portfolio.html">Portfolio | </a>
-		<a href="http://valesbc.me/resume.html">Resume | </a>
-		<a href="http://valesbc.me/contact.html">Contact</a>
-		</nav>
+	<nav><a href="http://valesbc.me"><img src="http://i.imgur.com/7hKVWiO.png?1" width="90" alt="Valeria Becerra Logo"></a><a href="http://valesbc.me/about.html">About Me | </a><a href="http://valesbc.me/portfolio.html">Portfolio | </a><a href="http://valesbc.me/contact.html">Contact</a></nav>
 	</div>
 </article>
 </header>     
@@ -139,7 +149,8 @@ footer {
 <h1>My Work</h1>
 
 <div class="container">
-	
+
+
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3d0ee30025329.560f4ee5044f8.jpg" alt="poster">
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2d947d29970839.560cb3e972605.jpg" alt="magazine">
@@ -153,6 +164,7 @@ footer {
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d79b0329971593.560cc300d3d68.png" alt="color script">
 
+<p><input type="button" value="Check out my fees here." onClick="popup()">
 
 </div>
 </section>
@@ -166,7 +178,7 @@ footer {
 </a></nav>
 <section id="copyright">
 	<hr>
-<h4> © Copyright Valeria Becerra 2015</h4>
+<h4>© Copyright Valeria Becerra 2015</h4>
 </section>
 </footer>
 </body>
