@@ -1,14 +1,14 @@
 body{
-font-family: "proxima-nova";
+font-family: "ingra";
 }
 
 .homepage #logo {
-  font-family: "aw-conqueror-inline";
+  font-family: "brim-narrow-combined-1";
   font-size: 225%;
 }
 
 h4 {
-  font-family: "brandon-grotesque";
+  font-family: "brim-narrow-combined-1";
   font-weight: bold;
   text-transform: uppercase;
 }
