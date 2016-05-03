@@ -4,10 +4,11 @@ https://images.unsplash.com/photo-1431576901776-e539bd916ba2?crop=entropy&fit=cr
    color: white;
 background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: "ingra";
 }    
 
 h4 {
-    font-family: "brim-narrow-combined-1";
+    font-family: "ingra";
     text-transform: uppercase;
 }
 
