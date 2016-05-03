@@ -14,13 +14,13 @@ h4 {
 }
 
 #topban h2 {
-  font-family: "azo-sans-web";
+  font-family: "azo-sans-uber";
   font-weight: bold;
   text-transform: capitalize;
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1429667947446-3c93a979b7e0?crop=entropy&dpr=2.5&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=40&w=1550");
+  background-image: url("https://images.unsplash.com/photo-1431576901776-e539bd916ba2?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1700");
   background-size: cover;
   color: white;
       background-attachment: fixed;
