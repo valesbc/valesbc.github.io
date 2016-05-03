@@ -45,19 +45,19 @@ body {
 }
  
  #leftbar{
-   background-color:rgba(89, 27, 84, 0.50);
+   background-color:rgb(89, 27, 84);
    padding-top: 30px;
     padding-bottom: 30px;
  }
  
  .homepage #rightbar {
-  background-color:rgba(89, 27, 84, 0.50);
+  background-color:rgb(89, 27, 84);
       padding-top: 30px;
     padding-bottom: 30px;
  }
  
   .w1024.homepage #pagecontainer {
-    background: rgba(131, 131, 131, 0.75);
+    
         padding-left: 20px;
           }
           
