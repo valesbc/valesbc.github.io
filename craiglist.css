@@ -7,18 +7,18 @@ https://images.unsplash.com/photo-1431576901776-e539bd916ba2?crop=entropy&fit=cr
 
 a {
     color: black;
-    font-family: sans-serif;
+    font-family: "ingra";
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: "ingra";
 }
 
 .homepage #logo {
     font-size: 235%;
     line-height: 135%;
     font-weight: 500;
-    font-family: "brim-narrow-combined-1", sans-serif;
+   font-family: "brim-narrow-combined-1",sans-serif;
     width: 100%
 }
 
