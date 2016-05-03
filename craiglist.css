@@ -1,0 +1,122 @@
+body {
+   background-image: url( 
+https://images.unsplash.com/photo-1431576901776-e539bd916ba2?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1700);
+   color: white;
+
+}    
+
+a {
+    color: black;
+    font-family: "ingra";
+}
+
+h2 {
+    font-family: "brim-narrow-combined-1";
+}
+
+.homepage #logo {
+    font-size: 235%;
+    line-height: 135%;
+    font-weight: 500;
+    font-family: "brim-narrow-combined-1", sans-serif;
+    width: 100%
+}
+
+.homepage #pagecontainer {
+    *zoom: 1;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 600px;
+    padding: 16px 0 1em 0;
+    width: 868px;
+    background-color: rgba(53, 45, 43, 0.5);
+}
+
+#topban {
+    background-color: rgba(248, 113, 0, 0.5);
+}
+
+#topban h2 {
+    font-family: "azo-sans-uber";
+    color: white;
+}
+
+#leftbar {
+    background-color: rgba(248, 113, 0, 0.5);
+}
+
+.homepage #logo {
+    font-family: "brim-narrow-combined-1", sans-serif;
+}
+
+.homepage #postlks #post {
+    padding: 2px .5em;
+    background-color: rgb(248, 113, 0);
+}
+
+a:visited,
+  a:active,
+  a:link{
+    text-decoration: none;
+    color: white;
+  }
+
+  .cal td {
+    background: #3C3C3C;}
+    
+    .cal td.today {
+    background: #f66001;}
+legend {
+    color: white;
+}
+
+.homepage #center .ban{
+  background-color: rgba(248, 113, 0, 0.5);
+  height:100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.homepage .col ul{
+    background-color: transparent;
+  }
+
+.homepage #center .ban h4 {
+    color: white;
+}
+
+
+.homepage #rightbar {
+    background-color: rgba(248, 113, 0, 0.5);
+}
+
+.homepage #rightbar h5 {
+    background: rgb(248, 113, 0);
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.homepage #rightbar h5.active {
+    background: rgb(248, 113, 0);
+    color: white;
+}
+
+
+.homepage #rightbar h5 {
+    color: white;
+}
+
+.homepage footer {
+    background-color: rgb(248, 113, 0);
+  }
+
+.linklike {
+    color: black;
+}
+
+
+
+
+
+
