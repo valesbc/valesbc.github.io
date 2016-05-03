@@ -33,7 +33,7 @@ h4 {
 }
 
 #topban h2 {
-    font-family: "azo-sans-uber";
+    font-family: "brim-narrow-combined-1";
     font-weight: bold;
     text-transform: capitalize;
     color: white;
@@ -44,7 +44,7 @@ h4 {
 }
 
 .homepage #logo {
-    font-family: "brim-narrow-combined-1", sans-serif;
+    font-family: "franklin-gothic-urw-comp", sans-serif;
 }
 
 .homepage #postlks #post {
