@@ -2,6 +2,7 @@ body {
    background-image: url( 
 https://images.unsplash.com/photo-1431576901776-e539bd916ba2?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1700);
    color: white;
+   font-family: "ingra";
 
 }    
 
@@ -11,7 +12,7 @@ a {
 }
 
 h2 {
-    font-family: "ingra";
+    font-family: "azo-sans-uber";
 }
 
 .homepage #logo {
