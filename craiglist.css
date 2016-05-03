@@ -24,11 +24,11 @@ h4 {
     min-height: 600px;
     padding: 16px 0 1em 0;
     width: 868px;
-    background-color: rgba(53, 45, 43, 0.5);
+    background-color: rgb(53, 45, 43);
 }
 
 #topban {
-    background-color: rgba(248, 113, 0, 0.5);
+    background-color: rgb(248, 113, 0);
 }
 
 #topban h2 {
@@ -39,7 +39,7 @@ h4 {
 }
 
 #leftbar {
-    background-color: rgba(248, 113, 0, 0.5);
+    background-color: rgb(248, 113, 0);
 }
 
 .homepage #logo {
@@ -68,14 +68,14 @@ legend {
 }
 
 .homepage #center .ban{
-  background-color: rgba(248, 113, 0, 0.5);
+  background-color: rgb(248, 113, 0);
   height:100%;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .homepage .col ul{
-    background-color: transparent;
+    /*background-color: transparent;*/
   }
 
 .homepage #center .ban h4 {
@@ -84,7 +84,7 @@ legend {
 
 
 .homepage #rightbar {
-    background-color: rgba(248, 113, 0, 0.5);
+    background-color: rgb(248, 113, 0);
 }
 
 .homepage #rightbar h5 {
