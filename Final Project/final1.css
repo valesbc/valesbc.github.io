@@ -1,0 +1,322 @@
+header {
+	/*background-image: url('BannerBackground.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: fixed;*/
+	
+}
+
+body {
+	/*background-image: url('BannerBackground.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: fixed;*/
+	background-color: black;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	}
+
+/* Index Starts */
+
+#banner {
+	margin: 0 auto;
+	height: 700px;
+	overflow: hidden;
+	/*background-color: black;
+	width: 1423px;
+	height: 48px;
+	padding-top: 24px;
+	text-align: center;*/
+	-webkit-animation-duration: 4s;
+  -webkit-animation-delay: .2s;
+  -webkit-animation-iteration-count: 1;	
+  position: relative;
+  
+}
+
+/*------Menu----*/
+
+#menu {
+	position: fixed;
+	z-index: 99999999;
+	top: 0;
+	left: 0;
+	-webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+
+}
+
+nav {
+	background-color: black;
+	width: 1423px;
+	height: 48px;
+	padding-top: 24px;
+	text-align: center;
+	position: relative;
+	z-index: 999;
+}
+
+nav a {
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	padding-right: 22px;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+nav a:hover {
+	
+	
+	color: #a629c5;
+	transition-property: color,;
+	transition-duration: 2s;
+}
+
+.sign {
+	color: #a09fa0;
+	position: absolute;
+	top: 23px;
+	right: 147px;
+	
+}
+
+.logo {
+	position: absolute;
+	top: 17px;
+	left: 82px;
+}
+	
+
+.cart {
+	position: absolute;
+	top: 10px;
+	right: 82px;
+	
+}
+
+/*----- Menu Ends ------*/
+
+/*----- Banner Begins ------*/
+
+
+.woman {
+	position: absolute;
+	top: 59px;
+	left: 153px;
+	z-index: 1;
+	-webkit-animation-duration: 1s;
+  -webkit-animation-delay: .1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.title {
+	position: absolute;
+	z-index: 2;
+	top: 308px;
+	left: 218px;
+}
+
+.button {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	width: 87px;
+	height: 23px;
+	padding: 10px;
+	position: absolute;
+	z-index: 3;
+	top: 557px;
+	left: 675px;
+}
+
+.button:hover {
+	color: white;
+	background: purple;
+	border: white solid 2px; 
+	position: absolute;
+	transition-property: background, color, border;
+	transition-duration: 2s;
+}
+
+/*----- Banner Begins ------*/
+
+/* ----End of banner stuffs----*/
+/*-----Our Story Section ----*/
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+#our-story {
+	background-color: #44204d;
+	background-size: 1450px;
+	margin: 0 auto;
+	height: 500px;
+	overflow: hidden;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color: white;
+	-webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#our-story img {
+	float: left;
+	margin-top: -30px;
+	margin-right: 150px;
+}
+
+h1, h3 {
+	font-weight: normal;
+}
+
+#our-story .container1 {
+	width: 1183px;
+	margin: 55px;
+	text-align: justify;
+}
+
+#our-story h1 {
+	font-size: 28px;
+}
+
+#our-story h3 {
+	font-size: 18px;
+	color: white;
+	text-align: left;
+}
+
+#our-story p {
+	font-size: 14px;
+	font-style: italic;
+}
+
+#our-story button  {
+    text-decoration: none;
+	background-color: white;
+	color: #44204d;
+	font-size: 16px;
+	width: 171px;
+	height: 49px;
+	padding: 10px;
+	margin-top: 28px;
+}
+
+#our-story button:hover  {
+    color: white;
+	background: purple;
+	border: white solid 2px; 
+	position: absolute;
+	transition-property: background, color, border;
+	transition-duration: 2s;
+}
+
+
+
+/*------Shop Section--------------*/
+
+#shop {
+	background: url(shopback1.jpg);
+
+	background-size: 1450px;
+	margin: 0 auto;
+	height: 713px;
+	overflow: hidden;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color: white;
+	-webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#shop h1, h3 {
+	color: black;
+	text-align: center;
+}
+
+#shop h1 {
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+#shop ul, li {
+	text-align: center;
+	list-style: none;
+	color: black;
+	width: 155px;
+	padding: 5px;
+}
+
+#shop li {
+	background: white;
+	margin-top: 76px;
+	margin-bottom: 25px;
+	margin-left: 614px;
+	font-size: 26px;
+}
+
+#shop li:hover {
+	color: white;
+	background-color: purple
+	transition-property: color, background-color;
+	transition-duration: 1s;
+}
+
+#contact {
+	background-image: url(maps.jpg);
+	background-size: 1450px;
+	margin: 0 auto;
+	height: 500px;
+	overflow: hidden;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color: white;
+	text-align: center;
+}
+
+#contact h3 {
+	color: white;
+}
+
+
+
+
+
+
+footer {
+	background: #131217;
+	background-size: 1450px;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+
+footer .social-list {
+	list-style: none;
+	margin: 0 0 10px 0;
+	padding: 0;
+
+}
+
+footer .social-list li {
+	display: inline-block;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
