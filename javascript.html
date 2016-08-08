@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="midterm.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.10.2/paper-full.min.js"></script>
+  <script src="java.js"></script>
+ 
+<script>
+              new WOW().init();
+              </script>
+
+              <script type="text/paperscript" canvas="myCanvas">
+		tool.minDistance = 10;
+tool.maxDistance = 45;
+
+var path;
+
+function onMouseDown(event) {
+	path = new Path();
+	path.fillColor = new Color({ hue: Math.random() * 360, saturation: 1, brightness: 1 });
+
+	path.add(event.point);
+}
+
+function onMouseDrag(event) {
+	var step = event.delta / 2;
+	step.angle += 90;
+	
+	var top = event.middlePoint + step;
+	var bottom = event.middlePoint - step;
+	
+	path.add(top);
+	path.insert(0, bottom);
+	path.smooth();
+}
+
+function onMouseUp(event) {
+	path.add(event.point);
+	path.closed = true;
+	path.smooth();
+}
+
+
+
+
+		</script>
+    <script>
+
+var person = {
+  firstName : "Thank",
+  lastName: "You!"
+}
+
+function choose(e) {
+    alert(person.firstName + " " + person.lastName);
+}
+
+
+    </script>
+
+
+</head>
+<header class="wow slideInUp">
+  <span id="logo"><h1>Draw me like one of your french girls</h1></span>
+  <span id="icon">
+<a href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></</span>
+ <span id="useless"><h3>Retour</h3></span>
+ 
+</header>
+
+<body>
+  <div class="title">
+    <span id="title" class="wow zoomIn"><h1>Cinismo <br>Ilustrado</h1></span>
+  
+  <span id="button"><a href="#" onclick="choose()">BUY THE BOOK!</a></span>
+    
+    <span id="love" class="wow bounceInDown"><img src="http://67.media.tumblr.com/71d49c2bc21c37f48b996f25d6be2429/tumblr_njb61ee5H81qa4p8ho1_500.jpg" alt="amor" width="220px" /></span>
+   
+   <span id="god" class="wow bounceInLeft"> <img src="http://67.media.tumblr.com/24c4f26e2a0267033f72ca9fb7a08ca5/tumblr_nk2yfibaBc1qa4p8ho1_500.jpg" alt="god" width="220px" /></span>
+    
+    <!--<span id="gif"><img src="http://67.media.tumblr.com/c103089ea3b3b1dd94f19439af831dd9/tumblr_no8j40XVp21uu5uwro1_500.gif" alt="gif" width="300px" /></span>-->
+    
+    <!--<span id="quincena"><img src="http://66.media.tumblr.com/0af1c13b8cd6ef1a20d3d4d7d02a0ae1/tumblr_npdmjm6rpS1qa4p8ho1_500.jpg" alt="quincena" width="200px" /></span>-->
+    
+    <span id="dog" class="wow bounceInRight"><img src="http://65.media.tumblr.com/0e2feb8d4444e848e3dcf34402383f4e/tumblr_mwbcpkSqy41qa4p8ho1_500.jpg" alt="dog" width="320px"/></span>
+    
+    <span id="heart" class="wow bounceInLeft"><img src="http://66.media.tumblr.com/018164b32989959caa933125542ced89/tumblr_njpncnyicq1twkrf5o1_1280.gif" alt="heart" width="305px"/></span>
+    
+    <span id="boobs" class="wow bounceInLeft"><img src="http://66.media.tumblr.com/91d1814321af1475fcd1bb67290d0b78/tumblr_nq9apxkBRS1tzbfwwo1_500.gif" alt="boobs" width="270px" /></span>
+    
+    <span id="diet" class="wow bounceInUp"><img src="http://65.media.tumblr.com/a80a1e078e1a06a06de1c8117d5772ad/tumblr_mzeinbbonc1qa4p8ho1_500.jpg" alt="diet" width="150px" /></span>
+    
+    <span id="death" class="wow bounceInDown"><img src="http://67.media.tumblr.com/d5b6ffabf98eb671dccb10faf6cd3c03/tumblr_nonnr4GSCB1qa4p8ho1_500.jpg" alt="death" width="160px" /></span>
+    
+    <span id="fail" class="wow bounceInDown"><img src="http://65.media.tumblr.com/223ea873e9b4c28055e0e835f9369553/tumblr_nmllzuULUe1qa4p8ho1_500.jpg" alt="fail" width="155px" /></span>
+    
+    <!--<span id="book"><img src="http://i2.wp.com/www.sopitas.com/site/wp-content/uploads/2014/09/cinismolibrofotofondoblanco.jpg?resize=640%2C885" alt="book" width="100px" /></span>-->
+
+    <span class="vertical-text">Hello! I'm vertical</span>
+    <span class="vertical-text1">Hello! I'm vertical</span>
+   
+    
+    </div>
+
+    <canvas id="myCanvas" class="wow bounceInDown" resize></canvas>
+</body>
+
+<footer>
+	<p>cinismoilustrado.com</p>
+  <div class="social">
+	<a href="http://www.twitter.com/ValeriaSBC"><i class="fa fa-twitter fa-lg"></i></a>
+<a href="https://instagram.com/valesbc/"><i class="fa fa-instagram fa-lg"></i></a>
+<a href="https://www.linkedin.com/pub/valeria-becerra/107/b0a/398
+"><i class="fa fa-linkedin fa-lg"></i></a>
+<a href="https://www.behance.net/valesbc"><i class="fa fa-behance fa-lg"></i></a>
+    </div>
+<!--<section id="copyright">
+  <hr>
+<h4> &copy; Copyright Valeria Becerra 2016</h4>
+  </section>-->
+
+</footer>
+
+
