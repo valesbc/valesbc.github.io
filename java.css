@@ -1,0 +1,342 @@
+body {
+  background: #efc346;
+  font-family: sans-serif;
+}
+
+.title {
+    margin-top: 60px;
+  text-align: center;
+  position: relative;
+}
+
+
+header {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+header h1 {
+    font-family:'Lobster Two', cursive;
+  display: inline-block;
+  font-size: 20px;
+  
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 6;
+}
+
+h1 {
+  animation: rotate 4s infinite alternate;
+  
+}
+
+@keyframes rotate{
+  from{transform: rotateY(0deg);}
+  to{transform: rotateY(360deg);}
+
+
+}
+
+header h3 {
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+
+button {
+  display: block;
+}
+
+#love {
+  position: absolute;
+  top: 137px;
+  right: 1094px;
+  z-index: 3;
+  trasition-property: z-index;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#love:hover {
+  z-index: 999999;
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#diet{
+  border: solid 2px black;
+  position: absolute;
+  top: 133px;
+  right: 389px;
+  z-index: 1;
+  trasition-property: z-index;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#diet:hover {
+  z-index: 999999;
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#god {
+  position: absolute;
+  top: 135px;
+  right: 868px;
+  z-index: 9;
+ trasition-property: z-index;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#god:hover {
+  z-index: 99999;
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+
+#gif {
+  position: absolute;
+  top: 300px;
+  right: 285px;
+  z-index: 1;
+  trasition-property: z-index;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#gif:hover {
+  z-index: 99999;
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#boobs{
+   position: absolute;
+  top: 360px;
+  right: 868px;
+  z-index: 8;
+  trasition-property: z-index;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#boobs:hover {
+  z-index: 99999;
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#heart {
+   position: absolute;
+  top: 133px;
+  right: 80px;
+  z-index: 2;
+  trasition-property: z-index;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#heart:hover {
+  z-index: 99999;
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#dog {
+   position: absolute;
+  top: 371px;
+  right: 220px;
+  z-index: 999;
+  trasition-property: z-index;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#dog:hover {
+  z-index: 99999;
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#death {
+   position: absolute;
+  top: 359px;
+  right: 546px;
+  z-index: 999;
+  trasition-property: z-index;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#death:hover {
+  z-index: 99999;
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#fail {
+  border: solid 1px black;
+   position: absolute;
+  top: 360px;
+  right: 708px;
+  z-index: 8;
+  trasition-property: z-index;
+   transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+
+
+}
+
+#fail:hover {
+  z-index: 999999;
+ -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#title {
+  font-family:'Lobster Two', cursive;
+  font-size: 33px;
+  position: absolute;
+  top: 103px;
+  right: 595px;
+  z-index: 9999;
+
+}
+
+
+#book {
+  position: absolute;
+  top: 150px;
+  right: 560px;
+  z-index: 9999;
+  
+}
+
+
+
+a {
+    font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+    text-decoration: none;
+    color: black;
+  transition-property: background-color, color;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 3;
+}
+
+a:hover {
+  color: #efc346;
+  /*background-color: black;*/
+  
+}
+
+#button {
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+  top: 310px;
+  right: 654px;
+  z-index: 9999;
+  transition-property: background;
+  transition-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 3;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: black;
+  
+}
+
+#icon a {
+float: right;
+margin: 8px;
+}
+
+#icon a:hover {
+    color: purple;
+}
+
+
+
+header img {
+    display: inline-block;
+}
+
+footer {
+    margin-top: 600px;
+    text-align: center;
+}
+
+.vertical-text {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    position: absolute;;
+    z-index: 99999;
+    top: 300px;
+    right: 1270px;
+}
+
+.vertical-text1 {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position: absolute;;
+    z-index: 99999;
+    top: 194px;
+    right: -69px;
+}
+
+footer p{
+    display: inline-block;
+  float: left;
+  margin-left: 50px;
+}
+
+canvas[resize] {
+      background-color: black;
+      width: 1398px;
+      height: 202px;
+position: absolute;
+  top: 47px;
+  right: 12px;
