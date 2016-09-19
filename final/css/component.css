@@ -165,8 +165,8 @@ body {
   border: none;
   padding: 10px;
   position: absolute;
-  top: 350px;
-  left: 610px;
+  top: 400px;
+  left: 690px;
   opacity: 0;
   animation: show 4s ease-in forwards;
   animation-delay: 4s;
@@ -185,7 +185,7 @@ body {
 #triquetra p {
   position: absolute;
   top: 105px;
-  left: 577px;
+  left: 652px;
   color: #5e5f60;
   opacity: 0;
   animation: show 4s ease-in forwards;
@@ -218,7 +218,7 @@ body {
 }
 
 .grid {
-	margin: 30px 200px;
+	margin: 30px 258px;
 	display: black;
 	max-width: 1000px;
 	width: 90%;
@@ -602,7 +602,7 @@ text {
 	width: 100px;
 	position: absolute;
 	top: 855px;
-	left: 668px;
+	left: 723px;
 	
 }
 
