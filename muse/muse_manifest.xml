@@ -1,0 +1,571 @@
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="valesbc.me/muse" resolutions="1x" timestamp="1509373401962">
+  <folder name="css">
+    <file name="site_global.css" crc="150610106"/>
+    <file name="master_a-master.css" crc="4033822185" ref="contact:portfolio:index:about:resume"/>
+    <file name="nomq_preview_master_a-master.css" crc="506662633" ref="contact:portfolio:index:about:resume"/>
+    <file name="contact.css" crc="51121611" ref="contact"/>
+    <file name="nomq_contact.css" crc="4093892069" ref="contact"/>
+    <file name="portfolio.css" crc="4029644619" ref="portfolio"/>
+    <file name="nomq_portfolio.css" crc="4172008782" ref="portfolio"/>
+    <file name="index.css" crc="3808110528" ref="index"/>
+    <file name="nomq_index.css" crc="400381644" ref="index"/>
+    <file name="about.css" crc="3939949546" ref="about"/>
+    <file name="nomq_about.css" crc="3976012312" ref="about"/>
+    <file name="resume.css" crc="276719983" ref="resume"/>
+    <file name="nomq_resume.css" crc="3809943491" ref="resume"/>
+  </folder>
+  <folder name="assets">
+    <file name="musegrape---blinds-image-slideshow.mulib" crc="4244360253" seo="true" mt="1498518924000"/>
+    <file name="musegrape---night-sky-container.mulib" crc="3919330798" seo="true" mt="1503761224000"/>
+    <file name="fullcards3.jpg" crc="466972210" seo="true" mt="1452209701000"/>
+    <file name="valeriabecerra_magazine.jpg" crc="3868899477" seo="true" mt="1508400268000"/>
+    <file name="screen-shot-2017-09-19-at-3.50.26-pm.png" crc="97534027" seo="true" mt="1508738595000"/>
+    <file name="tryouts-03.jpg" crc="401340266" seo="true" mt="1508738568000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:portfolio:resume:contact"/>
+    <file name="museutils.js" crc="17924269" ref="index:about:portfolio:resume:contact"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:portfolio:resume:contact"/>
+    <file name="museconfig.js" crc="278381782" ref="index:about:portfolio:resume:contact"/>
+    <file name="jquery.musemenu.js" crc="4286030528" ref="index:about:portfolio:resume:contact"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:about:portfolio:resume:contact"/>
+    <file name="webpro.js" crc="416662029" ref="index:about:portfolio:resume:contact"/>
+    <file name="musewpdisclosure.js" crc="3809204180" ref="index:about:portfolio:resume:contact"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about:portfolio:resume:contact"/>
+    <file name="jquery.museresponsive.js" crc="4267800278" ref="index:about:portfolio:resume:contact"/>
+    <file name="require.js" crc="3861931657" ref="index:about:portfolio:resume:contact"/>
+    <file name="musewpslideshow.js" crc="4034900702" ref="portfolio"/>
+    <file name="jquery.museoverlay.js" crc="528673841" ref="portfolio"/>
+    <file name="touchswipe.js" crc="432264157" ref="portfolio"/>
+    <file name="form_check.php" crc="4110044762" ref="contact"/>
+    <file name="form_throttle.php" crc="22190333" ref="contact"/>
+    <file name="form_process.php" crc="257545537" ref="contact"/>
+    <file name="form-u1489.php" crc="4162923731" ref="contact"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3854337258" ref="contact"/>
+  </folder>
+  <folder name="images">
+    <file name="artwork-16.svg" crc="3791567311" seo="true" ref="index:about:portfolio:resume:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="artwork 16_poster_.png" crc="336813040" ref="index"/>
+    <file name="logo_facebook.svg" crc="306081885" seo="true" ref="index:about:portfolio:resume:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="logo_facebook_poster_.png" crc="453792815" ref="index"/>
+    <file name="artwork-11.svg" crc="3873968829" seo="true" ref="index:about:portfolio:resume:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="artwork 11_poster_.png" crc="3946164237" ref="index"/>
+    <file name="logo_twitter.svg" crc="3991714847" seo="true" ref="index:about:portfolio:resume:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="logo_twitter_poster_.png" crc="4056626944" ref="index"/>
+    <file name="artwork-12.svg" crc="13803184" seo="true" ref="index:about:portfolio:resume:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="artwork 12_poster_.png" crc="4075937032" ref="index"/>
+    <file name="ico_ham.svg" crc="257831789" ref="index:about:portfolio"/>
+    <file name="ico_ham_poster_u9684.png" crc="11301426" ref="index:about:portfolio"/>
+    <file name="ico_ham_close.svg" crc="4057705631" ref="index:about:portfolio"/>
+    <file name="ico_ham_close_poster_u9676.png" crc="4203631480" ref="index:about:portfolio"/>
+    <file name="blank.gif" crc="4208392903" ref="index:about:portfolio:resume:contact"/>
+    <file name="artwork 19.svg" crc="148080974" ref="about"/>
+    <file name="artwork 19_poster_u7763.png" crc="4057731439" ref="about"/>
+    <file name="artwork-18.svg" crc="4160630677" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="artwork 18_poster_.png" crc="38805518" ref="about"/>
+    <file name="background.jpg" crc="3988299465" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="background244x245.jpg" crc="153555674" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="background242x243.jpg" crc="53407061" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u3654.jpg" crc="4022333425" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u3650.jpg" crc="4230735001" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u3662.jpg" crc="518706376" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="bags-box-crop-u3660.jpg" crc="74917047" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u3656.png" crc="4163608847" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u3646.jpg" crc="286621576" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u3619.jpg" crc="301133415" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm.jpg" crc="406832619" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u3623.png" crc="3885827148" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u3625.jpg" crc="4112842644" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u3627.jpg" crc="239713932" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="bags-box.jpg" crc="506501386" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="portfolio"/>
+    <file name="valeriabecerra_magazine-crop-u3431.jpg" crc="4256205379" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="spreadvaleriabecerra-1-crop-u3429.jpg" crc="261220045" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="ad gibson-crop-u3411.jpg" crc="498418321" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="valeriabecerra_magazine-crop-u3380.jpg" crc="322483069" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="spreadvaleriabecerra-1.jpg" crc="3803707459" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="ad gibson-crop-u3384.jpg" crc="3950732869" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u3180.jpg" crc="3905279599" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u3176.jpg" crc="106906509" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u3188.jpg" crc="444366788" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="bags-box-crop-u3186.jpg" crc="436677740" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u3182.png" crc="4192000090" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u3172.jpg" crc="480843179" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u3145.jpg" crc="301133415" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u3149.png" crc="3885827148" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u3151.jpg" crc="4112842644" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u3153.jpg" crc="239713932" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u2634.jpg" crc="4140377900" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="fullcards3-crop-u2632.jpg" crc="3900619439" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u2642.jpg" crc="4004013764" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="dreamposter-crop-u2638.jpg" crc="4195383356" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="robbie copy(valeria’s macbook pro-s conflicted copy 2015-05-06) copy-crop-u2644.jpg" crc="401281852" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u2630.jpg" crc="240730242" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u2626.jpg" crc="95115819" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u2599.jpg" crc="301133415" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="robbie copy(valeria’s macbook pro-s conflicted copy 2015-05-06) copy-crop-u2587.jpg" crc="196492856" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u2605.jpg" crc="4112842644" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="fullcards3.jpg" crc="35941028" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="dreamposter-crop-u2593.jpg" crc="4122293470" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u2607.jpg" crc="239713932" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u36542.jpg" crc="503083785" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u36502.jpg" crc="4074109429" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u36622.jpg" crc="3799445997" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="bags-box-crop-u36602.jpg" crc="318830641" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u36562.png" crc="3887882191" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u36462.jpg" crc="3899741671" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u36192.jpg" crc="504186940" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u36232.png" crc="383387747" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u36252.jpg" crc="3941927425" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u36272.jpg" crc="3994965490" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="valeriabecerra_magazine-crop-u34312.jpg" crc="3892429041" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="spreadvaleriabecerra-1-crop-u34292.jpg" crc="4184594317" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="ad gibson-crop-u34112.jpg" crc="3956027502" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="valeriabecerra_magazine-crop-u33802.jpg" crc="54796986" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="ad gibson-crop-u33842.jpg" crc="485786202" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u31802.jpg" crc="3964468282" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u31762.jpg" crc="279134208" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u31882.jpg" crc="4060534159" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="bags-box-crop-u31862.jpg" crc="178900441" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u31822.png" crc="535585551" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u31722.jpg" crc="4219673565" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u31452.jpg" crc="504186940" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u31492.png" crc="383387747" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u31512.jpg" crc="3941927425" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u31532.jpg" crc="3994965490" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u26342.jpg" crc="4033937205" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="fullcards3-crop-u26322.jpg" crc="3989072677" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u26422.jpg" crc="407006182" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="dreamposter-crop-u26382.jpg" crc="280573861" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="robbie copy(valeria’s macbook pro-s conflicted copy 2015-05-06) copy-crop-u26442.jpg" crc="4219563306" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u26302.jpg" crc="4184589380" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u26262.jpg" crc="321120183" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u25992.jpg" crc="504186940" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="robbie copy(valeria’s macbook pro-s conflicted copy 2015-05-06) copy-crop-u25872.jpg" crc="165347250" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u26052.jpg" crc="3941927425" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="dreamposter-crop-u25932.jpg" crc="3870601898" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u26072.jpg" crc="3994965490" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u36543.jpg" crc="3918808378" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u36503.jpg" crc="468643910" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u36623.jpg" crc="414051808" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="bags-box-crop-u36603.jpg" crc="4085830485" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u36563.png" crc="94236352" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u36463.jpg" crc="437016102" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u36193.jpg" crc="3847600010" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm436x209.jpg" crc="4130098260" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u36233.png" crc="4018385794" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u36253.jpg" crc="3955381405" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u36273.jpg" crc="4044806139" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="bags-box471x314.jpg" crc="4092200153" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="valeriabecerra_magazine-crop-u34313.jpg" crc="114367498" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="spreadvaleriabecerra-1-crop-u34293.jpg" crc="3771550528" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="ad gibson-crop-u34113.jpg" crc="282394328" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="valeriabecerra_magazine-crop-u33803.jpg" crc="4232960825" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="spreadvaleriabecerra-1457x296.jpg" crc="344890538" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="ad gibson-crop-u33843.jpg" crc="3940033353" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u31803.jpg" crc="334117889" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u31763.jpg" crc="4199596893" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u31883.jpg" crc="511656923" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="bags-box-crop-u31863.jpg" crc="4107776923" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u31823.png" crc="3923742274" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u31723.jpg" crc="80131768" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u31453.jpg" crc="3847600010" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2016-03-15 at 40659 pm-crop-u31493.png" crc="4018385794" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u31513.jpg" crc="3955381405" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u31533.jpg" crc="4044806139" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u26343.jpg" crc="372519980" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="fullcards3-crop-u26323.jpg" crc="424164337" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="screen shot 2017-09-19 at 34859 pm-crop-u26423.jpg" crc="512248372" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="dreamposter-crop-u26383.jpg" crc="3960951593" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="robbie copy(valeria’s macbook pro-s conflicted copy 2015-05-06) copy-crop-u26443.jpg" crc="4274262302" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u26303.jpg" crc="4044397120" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u26263.jpg" crc="101661533" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="untitled-9-01-crop-u25993.jpg" crc="3847600010" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="robbie copy(valeria’s macbook pro-s conflicted copy 2015-05-06) copy-crop-u25873.jpg" crc="1514746" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="moonshine-valeriabecerra-01-crop-u26053.jpg" crc="3955381405" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="fullcards3471x314.jpg" crc="365988522" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="dreamposter-crop-u25933.jpg" crc="89990211" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="businesscards-01-crop-u26073.jpg" crc="4044806139" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="artwork-20.svg" crc="4201577587" seo="true" ref="resume">
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="artwork 20_poster_.png" crc="514362889" ref="resume"/>
+    <file name="pattern1.svg" crc="125878847" ref="resume:contact"/>
+    <file name="pattern1_poster_u3840.png" crc="355412428" ref="resume:contact"/>
+    <file name="u1566-6.png" crc="3932940343" ref="contact"/>
+    <file name="u1566-62.png" crc="38132662" ref="contact"/>
+    <file name="u1566-63.png" crc="216987749" ref="contact"/>
+    <file name="u1566-64.png" crc="523249837" ref="contact"/>
+    <file name="u1566-65.png" crc="523249837" ref="contact"/>
+  </folder>
+  <file name="index.html" crc="4084051922" seo="true" mt="1509373340354" redirect="true"/>
+  <file name="about.html" crc="372352708" seo="true" mt="1509373340354" redirect="true"/>
+  <file name="portfolio.html" crc="245203255" seo="true" mt="1509373340354" redirect="true"/>
+  <file name="resume.html" crc="3988825491" seo="true" mt="1509373340354" redirect="true"/>
+  <file name="contact.html" crc="333453529" seo="true" mt="1509373340354" redirect="true"/>
+</manifest>
